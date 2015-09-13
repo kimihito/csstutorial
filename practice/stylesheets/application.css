@@ -92,3 +92,26 @@ body {
   text-decoration: none;
   font-size: 13px;
 }
+
+.top-ads {
+  padding: 15px;
+  background: #CCCCCC;
+}
+
+.top-ads__item {
+  display: inline-block;
+  width: 318px;
+  margin: 0px 7px 0px 7px;
+}
+
+.top-ads__item:first-child {
+  margin-left: 0px
+}
+
+.top-ads__item:last-child {
+  margin-right: 0px;
+}
+
+.top-ads__image {
+  width: 100%;
+}
