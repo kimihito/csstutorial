@@ -117,3 +117,59 @@ body {
 .top-ads__image {
   width: 100%;
 }
+
+.main {
+  float: right;
+  width: 70%;
+  background: #DDDDDD;
+}
+
+.main:after {
+  clear: right;
+}
+
+.main-header:before {
+  content: '';
+  position: absolute;
+  background: black;
+  top: 0px;
+  right: 0px;
+  border-width:0 35px 35px 0;
+  border-style:solid;
+  border-color:#CCCCCC #CCCCCC #A9A9A9 #A9A9A9;
+}
+
+.main-header {
+  background: #EEEEEE;
+  position: relative;
+  box-shadow: 0 1.5px 0.5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main-header__title:before {
+  content: '';
+  background: #999;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  box-shadow: 0 12px #444, 12px 0 #444, 12px 12px #999;
+  top: 28px;
+  left: 10px;
+}
+
+.main-header__title {
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 60px;
+  color: #494949;
+}
+
+
+.aside {
+  float: left;
+  width: 30%;
+}
+
+.aside:after {
+  clear: left;
+}
