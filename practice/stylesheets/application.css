@@ -203,6 +203,35 @@ body {
   color: #444444;
 }
 
+.article__sub-title {
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 15px 25px;
+}
+
+.article__sub-title:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 17px;
+  background-color: #444;
+  left: 0;
+  top: 21px;
+}
+
+.article__sub-title:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 21px;
+  left: 7px;
+  border-top: 8.5px solid transparent;
+  border-bottom: 8.5px solid transparent;
+  border-left: 12px solid #444;
+}
+
 .article__strong {
   font-weight: bold;
 }
