@@ -235,3 +235,12 @@ body {
 .article__strong {
   font-weight: bold;
 }
+
+.article__unorder-list {
+  list-style-type: inherit;
+  list-style-position: inside;
+  padding-left: 0.4em;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+
