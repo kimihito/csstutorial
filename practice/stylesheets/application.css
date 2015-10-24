@@ -271,5 +271,6 @@ body {
   left: -15px;
 }
 
-.article__blockquote-paragraph {
+.article__image {
+  width: 100%;
 }
