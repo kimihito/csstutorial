@@ -340,6 +340,33 @@ body {
   top: -2px;
   left: 23px;
   transform: rotate(45deg);
+}
 
+.form-item {
+  margin-bottom: 20px;
+}
 
+.form-item__label {
+  text-align: right;
+  display: inline-block;
+  width: 40%;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 1%;
+}
+
+.form-item__label {
+  text-align: right;
+  display: inline-block;
+  width: 40%;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 1%;
+}
+
+.form-item__text-input {
+  border: 1.5px solid #ccc;
+  border-radius: 2px;
+  padding: 8px;
+  width: 53%;
 }
