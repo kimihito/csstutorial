@@ -308,3 +308,38 @@ body {
   list-style-position: inside;
 }
 
+.form {
+  background-color: white;
+}
+
+.form__title:before {
+  content: '';
+  height: 30px;
+  width: 50px;
+  border: 2px solid black;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.form__title {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 80px;
+}
+
+.form__title:after {
+  content: '';
+  height: 33px;
+  width: 33px;
+  border: 2px solid transparent;
+  border-bottom-color: black;
+  border-right-color: black;
+  position: absolute;
+  top: -2px;
+  left: 23px;
+  transform: rotate(45deg);
+
+
+}
